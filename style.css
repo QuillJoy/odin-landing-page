@@ -33,8 +33,33 @@ ul {
   }
 
   .section1{
+    display: flex;
     background-color: #1F2937;
     flex-shrink: 0;
+    height: 400px;
+    padding:20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .herosection{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    
+  }
+  .heromain{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+  }
+
+  .herobody{
+    font-size: 18px;
+    color:#E5E7Eb;
+  }
+  .heroimage{
+    
   }
   .section2{
     display: flex;
